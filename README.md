@@ -28,13 +28,13 @@ The **Email Reputation Tool** 🛠️ is a utility designed to check the reputat
 Run the tool using the following command:
 
 ```bash
-python emailrep.py --email <email_address>
+emailrep <email_address>
 ```
 
 ### 🔍 Example
 
 ```bash
-python emailrep.py --email example@example.com
+emailrep example@example.com
 ```
 
 The tool will return the reputation details of the provided email address. 📊
