@@ -1,6 +1,7 @@
 # Upgrade emailrep package
 upgrade-emailrep:
 	pip3 install emailrep --upgrade
+	pip install .
 .PHONY: clean clean-build clean-pyc clean-test coverage dist docs help install lint lint/flake8
 
 .DEFAULT_GOAL := help
@@ -99,5 +100,4 @@ build: clean ## builds source and wheel package
 	ls -l build dist
 
 install: clean ## install the package to the active Python's site-packages
-	python3 setup.py install
 	pip3 install emailrep --upgrade
