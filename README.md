@@ -39,9 +39,6 @@ emailrep example@example.com
 
 The tool will return the reputation details of the provided email address. 📊
 
-## ⚙️ Configuration
-
-You can configure the tool by editing the `config.json` file. Add any API keys or custom settings required for your use case. 🛠️
 
 ## 🤝 Contributing
 
