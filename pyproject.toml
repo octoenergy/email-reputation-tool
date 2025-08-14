@@ -1,5 +1,5 @@
 [project]
-name = "email-reputation-tool-ck"
+name = "email-reputation-tool"
 version = "0.1.0"
 description = "Email Reputation Tool contains all the boilerplate you need to create the package of the tool"
 readme = "README.md"
@@ -14,12 +14,12 @@ classifiers = [
 ]
 license = {text = "MIT"}
 dependencies = [
-  "typer"
+  "emailrep"
 ]
 requires-python = ">= 3.10"
 
 [project.optional-dependencies]
-test = [
+dev = [
     "coverage",  # testing
     "pytest",  # testing
     "ruff",  # linting

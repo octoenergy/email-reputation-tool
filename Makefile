@@ -3,8 +3,8 @@
 
 .PHONY: install setup
 
-install:
-	pip3 install emailrep --upgrade
+install: venv 
+	pip install .[dev]
 
 setup:
 	. .env; emailrep setup -k $$EMAILREP_API_KEY
@@ -12,9 +12,6 @@ setup:
 venv:
 	python3 -m venv venv
 
-# Install dependencies and project in virtual environment
-install: venv
-	. venv/bin/activate; pip install -r requirements.txt; pip install .; pip install emailrep --upgrade
 # Upgrade emailrep package
 upgrade-emailrep:
 	pip3 install emailrep --upgrade
@@ -69,11 +66,10 @@ clean-test: ## remove test and coverage artifacts
 	rm -fr htmlcov/
 	rm -fr .pytest_cache
 
-qa: ## fix style, sort imports, check types
-	uv run --extra test ruff check . --fix
-	uv run --extra test ruff check --select I --fix .
-	uv run --extra test ruff format .
-	uv run --extra test ty check .
+lint: ## fix style, sort imports, check types
+	ruff check . --fix
+	ruff check --select I --fix .
+	ruff format .
 
 MAKECMDGOALS ?= .	
 
@@ -115,6 +111,3 @@ build: clean ## builds source and wheel package
 	rm -rf build dist
 	uv build
 	ls -l build dist
-
-install: clean ## install the package to the active Python's site-packages
-	pip3 install emailrep --upgrade

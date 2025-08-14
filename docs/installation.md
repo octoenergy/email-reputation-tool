@@ -5,13 +5,13 @@
 To install Email Reputation Tool, run this command in your terminal:
 
 ```sh
-uv add email-reputation-tool-ck
+uv add email-reputation-tool
 ```
 
 Or if you prefer to use `pip`:
 
 ```sh
-pip install email-reputation-tool-ck
+pip install email-reputation-tool
 ```
 
 ## From source
