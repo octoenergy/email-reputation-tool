@@ -23,6 +23,11 @@ The **Email Reputation Tool** 🛠️ is a utility designed to check the reputat
 
     ```
     
+    ```bash
+    make install
+
+    ```
+    
 ## 🚀 Usage
 
 Run the tool using the following command:
