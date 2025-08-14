@@ -28,12 +28,12 @@ test = [
 ]
 
 [project.urls]
-bugs = "https://github.com/Furtivo360/email_reputation_tool_ck/issues"
-changelog = "https://github.com/Furtivo360/email_reputation_tool_ck/blob/master/changelog.md"
-homepage = "https://github.com/Furtivo360/email_reputation_tool_ck"
+bugs = "https://github.com/Furtivo360/email_reputation_tool/issues"
+changelog = "https://github.com/Furtivo360/email_reputation_tool/blob/master/changelog.md"
+homepage = "https://github.com/Furtivo360/email_reputation_tool"
 
 [project.scripts]
-email_reputation_tool_ck = "email_reputation_tool_ck.cli:app"
+email_reputation_tool = "email_reputation_tool.cli:app"
 
 [tool.ty]
 # All rules are enabled as "error" by default; no need to specify unless overriding.

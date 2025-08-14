@@ -8,7 +8,7 @@ You can contribute in many ways:
 
 ### Report Bugs
 
-Report bugs at https://github.com/Furtivo360/email_reputation_tool_ck/issues.
+Report bugs at https://github.com/Furtivo360/email_reputation_tool/issues.
 
 If you are reporting a bug, please include:
 
@@ -30,7 +30,7 @@ Email Reputation Tool could always use more documentation, whether as part of th
 
 ### Submit Feedback
 
-The best way to send feedback is to file an issue at https://github.com/Furtivo360/email_reputation_tool_ck/issues.
+The best way to send feedback is to file an issue at https://github.com/Furtivo360/email_reputation_tool/issues.
 
 If you are proposing a feature:
 
@@ -40,20 +40,20 @@ If you are proposing a feature:
 
 ## Get Started!
 
-Ready to contribute? Here's how to set up `email_reputation_tool_ck` for local development.
+Ready to contribute? Here's how to set up `email_reputation_tool` for local development.
 
-1. Fork the `email_reputation_tool_ck` repo on GitHub.
+1. Fork the `email_reputation_tool` repo on GitHub.
 2. Clone your fork locally:
 
    ```sh
-   git clone git@github.com:your_name_here/email_reputation_tool_ck.git
+   git clone git@github.com:your_name_here/email_reputation_tool.git
    ```
 
 3. Install your local copy into a virtualenv. Assuming you have virtualenvwrapper installed, this is how you set up your fork for local development:
 
    ```sh
-   mkvirtualenv email_reputation_tool_ck
-   cd email_reputation_tool_ck/
+   mkvirtualenv email_reputation_tool
+   cd email_reputation_tool/
    python setup.py develop
    ```
 
@@ -99,7 +99,7 @@ Before you submit a pull request, check that it meets these guidelines:
 To run a subset of tests:
 
 ```sh
-pytest tests.test_email_reputation_tool_ck
+pytest tests.test_email_reputation_tool
 ```
 
 ## Deploying

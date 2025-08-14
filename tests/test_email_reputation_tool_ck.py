@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 import pytest
 
-"""Tests for `email_reputation_tool_ck` package."""
+"""Tests for `email_reputation_tool` package."""
 
-# from email_reputation_tool_ck import email_reputation_tool_ck
+# from email_reputation_tool import email_reputation_tool
 
 
 @pytest.fixture
