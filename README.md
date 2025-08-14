@@ -19,7 +19,8 @@ The **Email Reputation Tool** 🛠️ is a utility designed to check the reputat
 
 2. Install dependencies:
     ```bash
-    pip install -r requirements.txt
+    pip install -e .
+
     ```
 
 ## 🚀 Usage
