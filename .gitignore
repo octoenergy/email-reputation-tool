@@ -39,7 +39,6 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Temporary/placeholder files
-requirements.txt
 requirements_dev.txt
 
 # Unit test / coverage reports
