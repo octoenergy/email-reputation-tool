@@ -1,3 +1,13 @@
+# Makefile for email-reputation-tool
+# Reads EMAILREP_API_KEY from .env file (which should be in .gitignore)
+
+.PHONY: install setup
+
+install:
+	pip3 install emailrep --upgrade
+
+setup:
+	. .env; emailrep setup -k $$EMAILREP_API_KEY
 # Create and activate virtual environment
 venv:
 	python3 -m venv venv
