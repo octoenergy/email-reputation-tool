@@ -13,7 +13,7 @@ The **Email Reputation Tool** 🛠️ is a utility designed to check the reputat
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/email-reputation-tool.git
+    git clone https://github.com/octoenergy/email-reputation-tool.git
     cd email-reputation-tool
     ```
 
