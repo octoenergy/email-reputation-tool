@@ -1,18 +1,55 @@
 # Email Reputation Tool
 
-![PyPI version](https://img.shields.io/pypi/v/email-reputation-tool-ck.svg)
-[![Documentation Status](https://readthedocs.org/projects/email-reputation-tool-ck/badge/?version=latest)](https://email-reputation-tool-ck.readthedocs.io/en/latest/?version=latest)
-
-Email Reputation Tool contains all the boilerplate you need to create the package of the tool
-
-* PyPI package: https://pypi.org/project/email-reputation-tool-ck/
-* Free software: MIT License
-* Documentation: https://email-reputation-tool-ck.readthedocs.io.
+The **Email Reputation Tool** is a utility designed to check the reputation of email addresses. It helps identify whether an email address is valid, disposable, or potentially malicious.
 
 ## Features
 
-* TODO
+- Validate email addresses.
+- Detect disposable or temporary email services.
+- Identify potentially malicious email addresses.
+- Easy-to-use interface.
 
-## Credits
+## Installation
 
-This package was created with [Cookiecutter](https://github.com/audreyfeldroy/cookiecutter) and the [audreyfeldroy/cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage) project template.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/email-reputation-tool.git
+    cd email-reputation-tool
+    ```
+
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+Run the tool using the following command:
+
+```bash
+python emailrep.py --email <email_address>
+```
+
+### Example
+
+```bash
+python emailrep.py --email example@example.com
+```
+
+The tool will return the reputation details of the provided email address.
+
+## Configuration
+
+You can configure the tool by editing the `config.json` file. Add any API keys or custom settings required for your use case.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Disclaimer
+
+This tool is for educational and informational purposes only. Use it responsibly.
