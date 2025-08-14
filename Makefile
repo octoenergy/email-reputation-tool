@@ -1,3 +1,10 @@
+# Create and activate virtual environment
+venv:
+	python3 -m venv venv
+
+# Install dependencies and project in virtual environment
+install: venv
+	. venv/bin/activate; pip install -r requirements.txt; pip install .; pip install emailrep --upgrade
 # Upgrade emailrep package
 upgrade-emailrep:
 	pip3 install emailrep --upgrade

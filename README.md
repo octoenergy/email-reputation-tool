@@ -17,14 +17,9 @@ The **Email Reputation Tool** 🛠️ is a utility designed to check the reputat
     cd email-reputation-tool
     ```
 
-2. Install dependencies:
+2. Install the tool:
     ```bash
-    pip install -e .
-
-    ```
-    or 
-    ```bash
-    pip3 install -e .
+    make install
 
     ```
     
