@@ -206,3 +206,5 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 .env
+
+[.github/copilot-instructions.md]
